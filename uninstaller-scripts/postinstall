@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+test -e /usr/local/libexec/SmartCardServices/drivers/ifd-ccid.bundle/Contents/magic && rm -rf /usr/local/libexec/SmartCardServices/drivers/ifd-ccid.bundle
